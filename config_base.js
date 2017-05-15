@@ -5,7 +5,7 @@ module.exports = {
 	writeLogs : false,
 	// Auth
 	locationAuthentication : {
-		locationId : "",
+		locationId : "12345",
 		locationName : "",
 		user : {},
 		accessToken : ""
