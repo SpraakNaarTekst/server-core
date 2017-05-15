@@ -1,0 +1,2 @@
+/*Copyright Spraak naar Tekst*/
+var o=require("prettyjson"),e={stringColor:"green",keysColor:"yellow",dashColor:"yellow",numberColor:"green"};module.exports={log:function(){var r=arguments,l=new Date;console.log(l.toISOString()+":");for(var n=0;n<r.length;n++)console.log("   "+o.render(r[n],e))}};

@@ -1,0 +1,22 @@
+{
+  "name": "preekondertiteling_server_core",
+  "homepage": "http://mijn.spraaknaartekst.eu",
+  "author": {
+    "name": "Willem Mulder",
+    "email": "willem@spraaknaartekst.eu",
+    "url": "http://willemmulder.net"
+  },
+  "dependencies": {
+    "diont": "*",
+    "htmlencode": "*",
+    "json-stringify-safe": "*",
+    "nodemailer": "*",
+    "prettyjson": "^1.1.3",
+    "qs": "^6.0.2",
+    "request": "^2.67.0",
+    "socket.io": "*"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.0.5"
+  }
+}
