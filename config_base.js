@@ -2,7 +2,9 @@ module.exports = {
 	// General
 	port : 3000,
 	// Logs
-	writeLogs : false,
+	dumpConnectionContentAsLogOnDisconnect : false,
+	writeLogs : true,
+	logLocation : "C:/Logs/SpraakNaarTekst/ServerCore/",
 	// Auth
 	locationAuthentication : {
 		locationId : "",
